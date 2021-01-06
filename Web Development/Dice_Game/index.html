@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dice Game</title>
+</head>
+<body>
+    <div class="error">
+        <h3>Here's a message!</h3>
+        <p class="label_one"> Enter The Valid Names!</p>
+        <button class="error-button" id="errorButton"><img src="src/ok.svg" alt="OK" height="50px" width="50px" ></button>
+
+    </div>
+    <div class="box" id="box1">
+        <div class="box-header">
+            <span  id="closeButton" class="close"><button><img src="src/close2.png" class = "rotate" alt="" height="30px" width="30px" style="margin-top: 10px; margin-left: auto;margin-right: auto;"></button></span>
+        </div>
+        <div class="box-body">
+            <div class="inputLabel">
+                <h3>Player - 1<h3>
+                <h3>Player - 2</h3>
+            </div>
+            <div class="inputName">
+                <input type="text" name="input" id="playerName1" class="input" size="30" autofocus placeholder="Player - 1">
+                <input type="text" name="input" id="playerName2" class="input" size="30" placeholder="Player - 2">
+            </div>
+        </div>
+        <div class="box-footer">
+            <span><img src="src/dice-png-41790.png" class="plus" alt="plus_img"></span>
+            <button class="play rotate" id="playButton"><img src="src/play1.svg" alt="" height="50px" width="50px" style="margin-left: auto;margin-right: auto; transform: rotate(180deg);"></button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">
+            <img src="src/dice-png-41790.png" class="plus" alt="plus_img">
+            <button class = "newgame_button"><p class = "newgame">NEW GAME</p></button>
+        </div>
+
+        <div class="player">
+            <p id="player_one">PLAYER 1</p>
+            <p id="player_two">PLAYER 2</p>
+        </div>
+        <div class="dice">
+            <p class="global">0</p>
+            <img src="src/red/5.svg" class="diceimg" alt=""></i>
+            <p class="global">0</p>
+        </div>
+        <div class="score">
+            <div class="s">
+                <p class="label">CURRENT</p>
+                <p class="sc">0</p>
+            </div>
+            <div class="roll">
+                <button class="button" id="b1">
+                    <div class="reload tooltip" id="rollimg">
+                        <img src="src/reload.png" class="rollpic" alt="roll_img" id="rimg">
+                        <!--<span class="tooltiptext">Roll Dice</span>-->
+                    </div>
+                </button>
+                <br>
+                <button class="button" id="b2">
+                    <div class="hold tooltip" id="holdScore">
+                        <img src="src/play.png" class="rollpic" alt="reload_img" id="pimg">
+                        <!--<span class="tooltiptext">Pause</span>-->
+                    </div>    
+                </button>
+            </div>
+            <div class="s">
+                <p class="label">CURRENT</p>
+                <p class="sc">0</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>

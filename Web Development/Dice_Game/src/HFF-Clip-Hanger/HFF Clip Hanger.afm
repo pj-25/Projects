@@ -1,0 +1,1067 @@
+StartFontMetrics 2.0
+Comment Copyright HFF Clip Hanger is based on Convoy, from page 9 of "Moderne  Alphabets: 100 Complete Fonts" by Dan X. Solo, first published by Dover Publications in 1999. 
+Comment Panose 2 0 0 0 0 0 0 0 0 0
+FullName HFF Clip Hanger
+FontName HFFClipHanger
+FamilyName HFF Clip Hanger
+Weight Regular
+Notice HFF Clip Hanger by Have Fun with Fonts, 2009. Free to use. Free to share. Have Fun!
+Version 1.000
+IsFixedPitch false
+ItalicAngle 0.00
+FontBBox -10 -115 1069 813
+Ascender 750
+Descender -250
+XHeight 500
+CapHeight 700
+UnderlinePosition -100
+UnderlineThickness 50
+EncodingScheme AdobeStandardEncoding
+StartCharMetrics 66
+C 32 ; WX 300 ; N space ; B 0 0 0 0 ;
+C 48 ; WX 720 ; N zero ; B 10 -8 707 712 ;
+C 49 ; WX 436 ; N one ; B 1 0 416 700 ;
+C 50 ; WX 525 ; N two ; B 10 0 512 706 ;
+C 51 ; WX 490 ; N three ; B 8 -1 473 700 ;
+C 52 ; WX 577 ; N four ; B 5 0 557 700 ;
+C 53 ; WX 533 ; N five ; B 13 0 515 700 ;
+C 54 ; WX 596 ; N six ; B 10 0 588 813 ;
+C 55 ; WX 566 ; N seven ; B 16 -115 566 700 ;
+C 56 ; WX 504 ; N eight ; B 13 0 491 699 ;
+C 57 ; WX 596 ; N nine ; B 8 -115 586 698 ;
+C 65 ; WX 824 ; N A ; B 7 0 818 699 ;
+C 66 ; WX 488 ; N B ; B 20 0 474 700 ;
+C 67 ; WX 664 ; N C ; B 13 -3 652 702 ;
+C 68 ; WX 578 ; N D ; B 18 0 565 700 ;
+C 69 ; WX 487 ; N E ; B 20 0 475 700 ;
+C 70 ; WX 442 ; N F ; B 20 0 441 700 ;
+C 71 ; WX 618 ; N G ; B 13 1 601 699 ;
+C 72 ; WX 610 ; N H ; B 20 0 590 700 ;
+C 73 ; WX 219 ; N I ; B 18 0 198 700 ;
+C 74 ; WX 528 ; N J ; B 16 0 510 700 ;
+C 75 ; WX 574 ; N K ; B 20 0 563 700 ;
+C 76 ; WX 461 ; N L ; B 20 0 460 700 ;
+C 77 ; WX 1081 ; N M ; B 12 0 1069 699 ;
+C 78 ; WX 640 ; N N ; B 20 0 620 700 ;
+C 79 ; WX 745 ; N O ; B 11 -1 731 696 ;
+C 80 ; WX 493 ; N P ; B 20 0 490 700 ;
+C 81 ; WX 813 ; N Q ; B 14 0 803 699 ;
+C 82 ; WX 572 ; N R ; B 20 0 563 700 ;
+C 83 ; WX 541 ; N S ; B 18 0 535 700 ;
+C 84 ; WX 709 ; N T ; B 8 0 708 702 ;
+C 85 ; WX 629 ; N U ; B 18 -2 609 700 ;
+C 86 ; WX 806 ; N V ; B 6 0 800 701 ;
+C 87 ; WX 1081 ; N W ; B 12 0 1069 699 ;
+C 88 ; WX 718 ; N X ; B 15 0 703 700 ;
+C 89 ; WX 699 ; N Y ; B 15 0 698 700 ;
+C 90 ; WX 709 ; N Z ; B 18 0 705 700 ;
+C 97 ; WX 824 ; N a ; B 7 0 818 699 ;
+C 98 ; WX 488 ; N b ; B 20 0 474 700 ;
+C 99 ; WX 664 ; N c ; B 13 -3 652 702 ;
+C 100 ; WX 578 ; N d ; B 18 0 565 700 ;
+C 101 ; WX 487 ; N e ; B 20 0 475 700 ;
+C 102 ; WX 442 ; N f ; B 20 0 441 700 ;
+C 103 ; WX 618 ; N g ; B 13 1 601 699 ;
+C 104 ; WX 610 ; N h ; B 20 0 590 700 ;
+C 105 ; WX 219 ; N i ; B 18 0 198 700 ;
+C 106 ; WX 528 ; N j ; B 16 0 510 700 ;
+C 107 ; WX 574 ; N k ; B 20 0 563 700 ;
+C 108 ; WX 461 ; N l ; B 20 0 460 700 ;
+C 109 ; WX 1081 ; N m ; B 12 0 1069 699 ;
+C 110 ; WX 640 ; N n ; B 20 0 620 700 ;
+C 111 ; WX 745 ; N o ; B 11 -1 731 696 ;
+C 112 ; WX 493 ; N p ; B 20 0 490 700 ;
+C 113 ; WX 813 ; N q ; B 14 0 803 699 ;
+C 114 ; WX 572 ; N r ; B 20 0 563 700 ;
+C 115 ; WX 541 ; N s ; B 18 0 535 700 ;
+C 116 ; WX 709 ; N t ; B 8 0 708 702 ;
+C 117 ; WX 629 ; N u ; B 18 -2 609 700 ;
+C 118 ; WX 806 ; N v ; B 6 0 800 701 ;
+C 119 ; WX 1081 ; N w ; B 12 0 1069 699 ;
+C 120 ; WX 718 ; N x ; B 15 0 703 700 ;
+C 121 ; WX 699 ; N y ; B 15 0 698 700 ;
+C 122 ; WX 709 ; N z ; B 18 0 705 700 ;
+C -1 ; WX 0 ; N .null ; B 0 0 0 0 ;
+C -1 ; WX 500 ; N CR ; B 0 0 0 0 ;
+C -1 ; WX 833 ; N have.fun.with.fonts ; B -10 -10 843 810 ;
+EndCharMetrics
+StartKernData
+StartKernPairs 922
+KPX zero one -125
+KPX zero two -84
+KPX zero seven -73
+KPX zero a -86
+KPX zero w -78
+KPX zero x -70
+KPX zero y -78
+KPX zero z -16
+KPX zero m -78
+KPX zero t -24
+KPX zero v -93
+KPX zero A -86
+KPX zero W -78
+KPX zero X -70
+KPX zero Y -78
+KPX zero Z -16
+KPX zero M -78
+KPX zero T -24
+KPX zero V -93
+
+KPX one seven -10
+KPX one three 31
+KPX one four 31
+KPX one b 8
+KPX one B 8
+
+KPX two one -73
+KPX two seven -52
+KPX two zero -54
+KPX two nine -52
+KPX two six -8
+KPX two c -31
+KPX two w -78
+KPX two v -94
+KPX two t -39
+KPX two q -24
+KPX two o -62
+KPX two g -31
+KPX two x -32
+KPX two C -31
+KPX two W -78
+KPX two V -94
+KPX two T -39
+KPX two Q -24
+KPX two O -62
+KPX two G -31
+KPX two X -32
+
+KPX three two -41
+KPX three seven -32
+KPX three a -47
+KPX three y -62
+KPX three x -31
+KPX three w -23
+KPX three m -23
+KPX three g -23
+KPX three A -47
+KPX three Y -62
+KPX three X -31
+KPX three W -23
+KPX three M -23
+KPX three G -23
+
+KPX four one 21
+
+KPX five one 31
+KPX five two -63
+KPX five a -54
+KPX five A -54
+
+KPX six seven -94
+KPX six one -188
+KPX six two -86
+KPX six z -70
+KPX six y -54
+KPX six x -63
+KPX six w -125
+KPX six v -149
+KPX six t -156
+KPX six a -55
+KPX six Z -70
+KPX six Y -54
+KPX six X -63
+KPX six W -125
+KPX six V -149
+KPX six T -156
+KPX six A -55
+
+KPX seven eight -62
+KPX seven six -125
+KPX seven two -118
+KPX seven zero -62
+KPX seven nine -63
+KPX seven seven -31
+KPX seven o -63
+KPX seven q -79
+KPX seven g -85
+KPX seven c -86
+KPX seven a -257
+KPX seven O -63
+KPX seven Q -79
+KPX seven G -85
+KPX seven C -86
+KPX seven A -257
+
+KPX eight one -63
+KPX eight two -62
+KPX eight seven -73
+KPX eight z -31
+KPX eight v -94
+KPX eight w -78
+KPX eight x -78
+KPX eight y -47
+KPX eight m -47
+KPX eight a -63
+KPX eight t -39
+KPX eight Z -31
+KPX eight V -94
+KPX eight W -78
+KPX eight X -78
+KPX eight Y -47
+KPX eight M -47
+KPX eight A -63
+KPX eight T -39
+
+KPX nine seven -41
+KPX nine one -72
+KPX nine two -63
+KPX nine a -102
+KPX nine v -78
+KPX nine w -62
+KPX nine y -78
+KPX nine m -110
+KPX nine s -54
+KPX nine x -110
+KPX nine A -102
+KPX nine V -78
+KPX nine W -62
+KPX nine Y -78
+KPX nine M -110
+KPX nine S -54
+KPX nine X -110
+
+KPX A t -240
+KPX A v -250
+KPX A u -73
+KPX A q -94
+KPX A g -115
+KPX A w -218
+KPX A z -52
+KPX A m -42
+KPX A c -104
+KPX A o -109
+KPX A T -240
+KPX A V -250
+KPX A U -73
+KPX A Q -94
+KPX A G -115
+KPX A W -218
+KPX A Z -52
+KPX A M -42
+KPX A C -104
+KPX A O -109
+KPX A one -179
+KPX A nine -140
+KPX A zero -133
+KPX A eight -62
+KPX A six -62
+KPX A four -117
+
+KPX B v -30
+KPX B y -62
+KPX B a -73
+KPX B x -52
+KPX B w -63
+KPX B V -30
+KPX B Y -62
+KPX B A -73
+KPX B X -52
+KPX B W -63
+KPX B one -54
+KPX B two -62
+
+KPX C y -73
+KPX C o -31
+KPX C a -53
+KPX C q -31
+KPX C x -73
+KPX C m -41
+KPX C v -52
+KPX C Y -73
+KPX C O -31
+KPX C A -53
+KPX C Q -31
+KPX C X -73
+KPX C M -41
+KPX C V -52
+KPX C one -46
+KPX C two -55
+
+KPX D v -78
+KPX D w -60
+KPX D y -73
+KPX D a -94
+KPX D x -73
+KPX D j -20
+KPX D m -63
+KPX D s -31
+KPX D z -32
+KPX D V -78
+KPX D W -60
+KPX D Y -73
+KPX D A -94
+KPX D X -73
+KPX D J -20
+KPX D M -63
+KPX D S -31
+KPX D Z -32
+KPX D one -86
+KPX D two -78
+
+KPX F a -146
+KPX F d 52
+KPX F i 42
+KPX F j 21
+KPX F l 42
+KPX F m -104
+KPX F n 31
+KPX F p 53
+KPX F q 42
+KPX F r 52
+KPX F t 41
+KPX F u 52
+KPX F b 63
+KPX F f 21
+KPX F A -146
+KPX F D 52
+KPX F I 42
+KPX F J 21
+KPX F L 42
+KPX F M -104
+KPX F N 31
+KPX F P 53
+KPX F Q 42
+KPX F R 52
+KPX F T 41
+KPX F U 52
+KPX F B 63
+KPX F F 21
+KPX F one 31
+KPX F two -70
+KPX F three 47
+KPX F five 40
+KPX F four 32
+
+KPX J a -94
+KPX J m -73
+KPX J A -94
+KPX J M -73
+KPX J two -55
+
+KPX K o -156
+KPX K u -52
+KPX K c -125
+KPX K g -125
+KPX K j -42
+KPX K q -146
+KPX K w -52
+KPX K t -31
+KPX K O -156
+KPX K U -52
+KPX K C -125
+KPX K G -125
+KPX K J -42
+KPX K Q -146
+KPX K W -52
+KPX K T -31
+KPX K seven -47
+KPX K nine -132
+KPX K zero -149
+KPX K eight -85
+KPX K six -86
+
+KPX L t -187
+KPX L w -146
+KPX L o -166
+KPX L c -94
+KPX L g -94
+KPX L q -94
+KPX L s 31
+KPX L u -63
+KPX L v -167
+KPX L T -187
+KPX L W -146
+KPX L O -166
+KPX L C -94
+KPX L G -94
+KPX L Q -94
+KPX L S 31
+KPX L U -63
+KPX L V -167
+KPX L one -141
+KPX L three 23
+KPX L nine -133
+KPX L zero -149
+KPX L eight -47
+KPX L six -55
+KPX L four -157
+
+KPX M o -114
+KPX M u -40
+KPX M b -32
+KPX M c -62
+KPX M g -84
+KPX M q -73
+KPX M t -156
+KPX M w -198
+KPX M y -31
+KPX M v -198
+KPX M O -114
+KPX M U -40
+KPX M B -32
+KPX M C -62
+KPX M G -84
+KPX M Q -73
+KPX M T -156
+KPX M W -198
+KPX M Y -31
+KPX M V -198
+KPX M one -188
+KPX M nine -117
+KPX M zero -94
+KPX M eight -39
+KPX M six -62
+KPX M four -78
+
+KPX N three 39
+
+KPX O v -135
+KPX O w -76
+KPX O x -94
+KPX O y -83
+KPX O z -63
+KPX O m -63
+KPX O t -63
+KPX O a -47
+KPX O V -135
+KPX O W -76
+KPX O X -94
+KPX O Y -83
+KPX O Z -63
+KPX O M -63
+KPX O T -63
+KPX O A -47
+KPX O one -94
+KPX O two -86
+KPX O seven -54
+
+KPX P y -84
+KPX P s -52
+KPX P a -177
+KPX P f 20
+KPX P m -125
+KPX P x -63
+KPX P Y -84
+KPX P S -52
+KPX P A -177
+KPX P F 20
+KPX P M -125
+KPX P X -63
+KPX P two -55
+
+KPX Q u -73
+KPX Q o -63
+KPX Q q -53
+KPX Q c -62
+KPX Q g -52
+KPX Q j -83
+KPX Q m -52
+KPX Q t -125
+KPX Q w -177
+KPX Q z -52
+KPX Q v -187
+KPX Q x -31
+KPX Q U -73
+KPX Q O -63
+KPX Q Q -53
+KPX Q C -62
+KPX Q G -52
+KPX Q J -83
+KPX Q M -52
+KPX Q T -125
+KPX Q W -177
+KPX Q Z -52
+KPX Q V -187
+KPX Q X -31
+KPX Q one -187
+KPX Q seven -47
+KPX Q nine -71
+KPX Q zero -46
+KPX Q eight -78
+KPX Q six -62
+KPX Q four -62
+
+KPX R g -94
+KPX R c -94
+KPX R o -94
+KPX R q -105
+KPX R t -63
+KPX R u -48
+KPX R v -70
+KPX R m -31
+KPX R j -63
+KPX R w -115
+KPX R x -73
+KPX R C -94
+KPX R O -94
+KPX R Q -105
+KPX R T -63
+KPX R U -48
+KPX R V -70
+KPX R M -31
+KPX R J -63
+KPX R W -115
+KPX R X -73
+KPX R one -70
+KPX R nine -70
+KPX R zero -86
+KPX R eight -78
+KPX R six -86
+
+KPX S a -63
+KPX S t -93
+KPX S w -125
+KPX S m -42
+KPX S x -84
+KPX S y -52
+KPX S z -52
+KPX S v -136
+KPX S A -63
+KPX S T -93
+KPX S W -125
+KPX S M -42
+KPX S X -84
+KPX S Y -52
+KPX S Z -52
+KPX S V -136
+KPX S one -157
+KPX S three 31
+KPX S seven -40
+
+KPX T a -250
+KPX T c -104
+KPX T g -104
+KPX T m -219
+KPX T q -93
+KPX T o -62
+KPX T t 21
+KPX T A -250
+KPX T C -104
+KPX T G -104
+KPX T M -219
+KPX T Q -93
+KPX T O -62
+KPX T T 21
+KPX T one 23
+KPX T two -101
+KPX T three 31
+KPX T nine -54
+KPX T zero -70
+KPX T eight -63
+KPX T six -117
+
+KPX V a -254
+KPX V o -78
+KPX V c -93
+KPX V m -187
+KPX V q -83
+KPX V A -254
+KPX V O -78
+KPX V C -93
+KPX V M -187
+KPX V Q -83
+KPX V two -117
+KPX V nine -70
+KPX V zero -55
+KPX V eight -94
+KPX V six -93
+
+KPX W a -219
+KPX W o -56
+KPX W c -73
+KPX W g -83
+KPX W m -177
+KPX W q -73
+KPX W A -219
+KPX W O -56
+KPX W C -73
+KPX W G -83
+KPX W M -177
+KPX W Q -73
+KPX W two -86
+KPX W nine -40
+KPX W zero -47
+KPX W eight -78
+KPX W six -101
+
+KPX X o -114
+KPX X c -115
+KPX X g -115
+KPX X q -115
+KPX X O -114
+KPX X C -115
+KPX X G -115
+KPX X Q -115
+KPX X two -8
+KPX X seven -39
+KPX X nine -71
+KPX X zero -102
+KPX X eight -71
+KPX X six -85
+
+KPX Y a -323
+KPX Y s -31
+KPX Y o -140
+KPX Y c -135
+KPX Y g -115
+KPX Y m -229
+KPX Y q -146
+KPX Y y -21
+KPX Y A -323
+KPX Y S -31
+KPX Y O -140
+KPX Y C -135
+KPX Y G -115
+KPX Y M -229
+KPX Y Q -146
+KPX Y Y -21
+KPX Y two -117
+KPX Y nine -71
+KPX Y zero -70
+KPX Y eight -86
+KPX Y six -125
+
+KPX Z o -92
+KPX Z c -93
+KPX Z g -115
+KPX Z q -94
+KPX Z O -92
+KPX Z C -93
+KPX Z G -115
+KPX Z Q -94
+KPX Z three 24
+KPX Z nine -54
+KPX Z zero -86
+KPX Z six -55
+
+KPX a t -240
+KPX a v -250
+KPX a u -73
+KPX a q -94
+KPX a g -115
+KPX a w -218
+KPX a z -52
+KPX a m -42
+KPX a c -104
+KPX a o -109
+KPX a T -240
+KPX a V -250
+KPX a U -73
+KPX a Q -94
+KPX a G -115
+KPX a W -218
+KPX a Z -52
+KPX a M -42
+KPX a C -104
+KPX a O -109
+KPX a one -179
+KPX a nine -140
+KPX a zero -133
+KPX a eight -62
+KPX a six -62
+KPX a four -117
+
+KPX b v -30
+KPX b y -62
+KPX b a -73
+KPX b x -52
+KPX b w -63
+KPX b V -30
+KPX b Y -62
+KPX b A -73
+KPX b X -52
+KPX b W -63
+KPX b one -54
+KPX b two -62
+
+KPX c y -73
+KPX c o -31
+KPX c a -53
+KPX c q -31
+KPX c x -73
+KPX c m -41
+KPX c v -52
+KPX c Y -73
+KPX c O -31
+KPX c A -53
+KPX c Q -31
+KPX c X -73
+KPX c M -41
+KPX c V -52
+KPX c one -46
+KPX c two -55
+
+KPX d v -78
+KPX d w -60
+KPX d y -73
+KPX d a -94
+KPX d x -73
+KPX d j -20
+KPX d m -63
+KPX d s -31
+KPX d z -32
+KPX d V -78
+KPX d W -60
+KPX d Y -73
+KPX d A -94
+KPX d X -73
+KPX d J -20
+KPX d M -63
+KPX d S -31
+KPX d Z -32
+KPX d one -86
+KPX d two -78
+
+KPX e d 21
+KPX e D 21
+KPX e five 39
+
+KPX f a -146
+KPX f d 52
+KPX f i 42
+KPX f j 21
+KPX f l 42
+KPX f m -104
+KPX f n 31
+KPX f p 53
+KPX f q 42
+KPX f r 52
+KPX f t 41
+KPX f u 52
+KPX f b 63
+KPX f f 21
+KPX f A -146
+KPX f D 52
+KPX f I 42
+KPX f J 21
+KPX f L 42
+KPX f M -104
+KPX f N 31
+KPX f P 53
+KPX f Q 42
+KPX f R 52
+KPX f T 41
+KPX f U 52
+KPX f B 63
+KPX f F 21
+KPX f one 31
+KPX f two -70
+KPX f three 47
+KPX f five 40
+KPX f four 32
+
+KPX j a -94
+KPX j m -73
+KPX j A -94
+KPX j M -73
+KPX j two -55
+
+KPX k o -156
+KPX k u -52
+KPX k c -125
+KPX k g -125
+KPX k j -42
+KPX k q -146
+KPX k w -52
+KPX k t -31
+KPX k O -156
+KPX k U -52
+KPX k C -125
+KPX k G -125
+KPX k J -42
+KPX k Q -146
+KPX k W -52
+KPX k T -31
+KPX k seven -47
+KPX k nine -132
+KPX k zero -149
+KPX k eight -85
+KPX k six -86
+
+KPX l t -187
+KPX l w -146
+KPX l o -166
+KPX l c -94
+KPX l g -94
+KPX l q -94
+KPX l s 31
+KPX l u -63
+KPX l v -167
+KPX l T -187
+KPX l W -146
+KPX l O -166
+KPX l C -94
+KPX l G -94
+KPX l Q -94
+KPX l S 31
+KPX l U -63
+KPX l V -167
+KPX l one -141
+KPX l three 23
+KPX l nine -133
+KPX l zero -149
+KPX l eight -47
+KPX l six -55
+KPX l four -157
+
+KPX m o -114
+KPX m u -40
+KPX m b -32
+KPX m c -62
+KPX m g -84
+KPX m q -73
+KPX m t -156
+KPX m w -198
+KPX m y -31
+KPX m v -198
+KPX m O -114
+KPX m U -40
+KPX m B -32
+KPX m C -62
+KPX m G -84
+KPX m Q -73
+KPX m T -156
+KPX m W -198
+KPX m Y -31
+KPX m V -198
+KPX m one -188
+KPX m nine -117
+KPX m zero -94
+KPX m eight -39
+KPX m six -62
+KPX m four -78
+
+KPX n three 39
+
+KPX o v -135
+KPX o w -76
+KPX o x -94
+KPX o y -83
+KPX o z -63
+KPX o m -63
+KPX o t -63
+KPX o a -47
+KPX o V -135
+KPX o W -76
+KPX o X -94
+KPX o Y -83
+KPX o Z -63
+KPX o M -63
+KPX o T -63
+KPX o A -47
+KPX o one -94
+KPX o two -86
+KPX o seven -54
+
+KPX p y -84
+KPX p s -52
+KPX p a -177
+KPX p f 20
+KPX p m -125
+KPX p x -63
+KPX p Y -84
+KPX p S -52
+KPX p A -177
+KPX p F 20
+KPX p M -125
+KPX p X -63
+KPX p two -55
+
+KPX q u -73
+KPX q o -63
+KPX q q -53
+KPX q c -62
+KPX q g -52
+KPX q j -83
+KPX q m -52
+KPX q t -125
+KPX q w -177
+KPX q z -52
+KPX q v -187
+KPX q x -31
+KPX q U -73
+KPX q O -63
+KPX q Q -53
+KPX q C -62
+KPX q G -52
+KPX q J -83
+KPX q M -52
+KPX q T -125
+KPX q W -177
+KPX q Z -52
+KPX q V -187
+KPX q X -31
+KPX q one -187
+KPX q seven -47
+KPX q nine -71
+KPX q zero -46
+KPX q eight -78
+KPX q six -62
+KPX q four -62
+
+KPX r g -94
+KPX r c -94
+KPX r o -94
+KPX r q -105
+KPX r t -63
+KPX r u -48
+KPX r v -70
+KPX r m -31
+KPX r j -63
+KPX r w -115
+KPX r x -73
+KPX r C -94
+KPX r O -94
+KPX r Q -105
+KPX r T -63
+KPX r U -48
+KPX r V -70
+KPX r M -31
+KPX r J -63
+KPX r W -115
+KPX r X -73
+KPX r one -70
+KPX r nine -70
+KPX r zero -86
+KPX r eight -78
+KPX r six -86
+
+KPX s a -63
+KPX s t -93
+KPX s w -125
+KPX s m -42
+KPX s x -84
+KPX s y -52
+KPX s z -52
+KPX s v -136
+KPX s A -63
+KPX s T -93
+KPX s W -125
+KPX s M -42
+KPX s X -84
+KPX s Y -52
+KPX s Z -52
+KPX s V -136
+KPX s one -157
+KPX s three 31
+KPX s seven -40
+
+KPX t a -250
+KPX t c -104
+KPX t g -104
+KPX t m -219
+KPX t q -93
+KPX t o -62
+KPX t t 21
+KPX t A -250
+KPX t C -104
+KPX t G -104
+KPX t M -219
+KPX t Q -93
+KPX t O -62
+KPX t T 21
+KPX t one 23
+KPX t two -101
+KPX t three 31
+KPX t nine -54
+KPX t zero -70
+KPX t eight -63
+KPX t six -117
+
+KPX v a -254
+KPX v o -78
+KPX v c -93
+KPX v m -187
+KPX v q -83
+KPX v A -254
+KPX v O -78
+KPX v C -93
+KPX v M -187
+KPX v Q -83
+KPX v two -117
+KPX v nine -70
+KPX v zero -55
+KPX v eight -94
+KPX v six -93
+
+KPX w a -219
+KPX w o -56
+KPX w c -73
+KPX w g -83
+KPX w m -177
+KPX w q -73
+KPX w A -219
+KPX w O -56
+KPX w C -73
+KPX w G -83
+KPX w M -177
+KPX w Q -73
+KPX w two -86
+KPX w nine -40
+KPX w zero -47
+KPX w eight -78
+KPX w six -101
+
+KPX x o -114
+KPX x c -115
+KPX x g -115
+KPX x q -115
+KPX x O -114
+KPX x C -115
+KPX x G -115
+KPX x Q -115
+KPX x two -8
+KPX x seven -39
+KPX x nine -71
+KPX x zero -102
+KPX x eight -71
+KPX x six -85
+
+KPX y a -323
+KPX y s -31
+KPX y o -140
+KPX y c -135
+KPX y g -115
+KPX y m -229
+KPX y q -146
+KPX y y -21
+KPX y A -323
+KPX y S -31
+KPX y O -140
+KPX y C -135
+KPX y G -115
+KPX y M -229
+KPX y Q -146
+KPX y Y -21
+KPX y two -117
+KPX y nine -71
+KPX y zero -70
+KPX y eight -86
+KPX y six -125
+
+KPX z o -92
+KPX z c -93
+KPX z g -115
+KPX z q -94
+KPX z O -92
+KPX z C -93
+KPX z G -115
+KPX z Q -94
+KPX z three 24
+KPX z nine -54
+KPX z zero -86
+KPX z six -55
+
+EndKernPairs
+EndKernData
+EndFontMetrics

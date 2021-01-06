@@ -1,0 +1,370 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltip .tooltiptext {
+visibility: hidden;
+width: fit-content;
+height: fit-content;
+font-size: 1rem;
+background-color: #003333;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 2;
+top: -5px;
+right: 110%;
+}
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+@font-face
+{
+    font-family: Achafont;
+    src: url("src/A-Charming-Font/Achafont.ttf");
+}
+@font-face
+{
+    font-family: playerFont;
+    src: url("src/game-sans-serif-7/game_sans_serif_7.ttf");
+}
+@font-face
+{
+    font-family: globalScore;
+    src: url("src/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+.rotate-animate
+{
+    animation: RotateButton 0.5s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes RotateButton 
+{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(deg)}
+}button:hover
+{
+    transform: scale(1.2);
+    border: transparent;
+}
+.box-header {
+    padding: 3px 16px;
+    background-color:#003333;
+    opacity: 0.8;
+}
+  
+.box-body 
+{
+    padding: 2px 16px;
+    opacity: 0.8;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.box-footer 
+{
+    display: flex;
+    justify-content:right;
+    opacity: 0.8;
+    padding: 2px 16px;
+    background-color: lightgrey;
+}
+.box 
+{
+    z-index: 1;
+    position: absolute;
+    background-color:grey;
+    margin: auto 25%;
+    padding: 0;
+    top: 30%;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.5s;
+}
+.input
+{
+    vertical-align: middle;
+    text-align: center;
+    font-family: playerFont;
+    background-color:grey;
+    border: transparent;
+    border-radius: 7px;
+    width: 40%;
+}
+.inputLabel
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.inputName
+{
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+@keyframes animatetop {
+    from
+    {
+        transform: scale(0);
+    }
+    to
+    {
+        transform: scale(1);
+        display : 'block';
+    }
+  }
+.box p
+{
+    font-size: xx-large;
+    position: relative;
+    top: 50%;
+    display: table-cell;
+    background-color: whitesmoke;
+}
+#playerName
+{
+    margin: 20px 10px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.box p span
+{
+    float: right;
+}
+
+body
+{
+    background : url("src/three.jpg") center center fixed;
+    background-size: contain;
+    object-position: center;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.button
+{
+    width: 100%;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+.main
+{
+    width: 40%;
+    height:  40%;
+    margin: 7% 59%;
+    opacity: 0.75;
+    align-content: center;
+    text-align: center ;
+    display: block;
+    background-color: whitesmoke;
+    box-shadow: thistle;
+    padding: 0px;
+    border-radius: 25px;
+    margin-bottom: 200px;
+}
+.plus
+{
+    width: 100px;
+    height: 60px;
+    margin: auto 2px;
+}
+.diceimg
+{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin: auto 25px;
+}
+.rollpic
+{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+.title
+{
+    font-family: 'Trebuchet MS';
+    display: inline-flex;
+    margin-left: -50px;
+    font-size: 40px;
+}
+.title p{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: Achafont;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.player 
+{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.player p 
+{
+    margin-right: 25px;
+    font-size:25px;
+    text-align: center;
+}
+.dice
+{
+    display: flex;
+    justify-content: space-evenly;    
+    font-family: 'Lucida Sans Unicode';
+    font-size: xxx-large;
+}
+.score
+{
+    display: flex;
+    justify-content: space-evenly;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    align-content: center;
+}
+.global
+{
+    color: #999999;
+}
+.dice p
+{
+    font-family: globalScore;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.s
+{
+    border-radius: 15px;
+    background-color:  #669999;
+    width: 100px;
+    height: 100px;
+}
+.sc
+{
+    margin-top: 0px;
+    color: #003333;
+}
+.label
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:15px;
+    color:   white;
+}
+.rolllabel
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size:15px;
+}
+.reload
+{
+    width: 35px;
+    height: 35px;
+    max-height: 50%;
+    font-family: 'Trebuchet MS';
+    display: inline-flex;
+    font-size: 30px;
+}
+.hold
+{
+    max-height: 50%;
+    font-family: 'Trebuchet MS';
+    display: inline-flex;
+    font-size: 30px;
+}
+.roll
+{
+    display: inline-block;
+}
+#playButton
+{
+    border: transparent;
+    background-color: transparent;
+    margin: 10px 180px;
+}
+.player
+{
+    font-family: playerFont;
+}
+#player_one
+{
+    line-height: 54px;
+    width: 40%;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+#player_two
+{
+    line-height: 54px;
+    width: 40%;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+button
+{
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.newgame_button
+{
+    font-size: xx-large;
+    background-color: transparent;
+    border: transparent;
+}
+.error-button
+{
+    font-size: 15px;
+    margin: 15px;
+    background-image: url("/src/ok.svg");
+}
+.error
+{
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    background-color:silver;
+    margin: auto 35%;
+    padding-top: 10px;
+    top: 10%;
+    border: 10px solid lightblue;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetoperror;
+    animation-duration: 0.4s;
+    display: none;
+}
+@keyframes animatetoperror {
+    from {top: -1000px; opacity: 0}
+    to {top: 10%; opacity: 1}
+}
