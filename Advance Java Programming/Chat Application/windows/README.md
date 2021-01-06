@@ -33,11 +33,11 @@
 
 ## Usage
 
-![Screenshots](Screenshots/mainScreen.png)
+![](Screenshots/mainScreen.png)
 
-![Screenshots](Screenshots/window_1.png)
+![](Screenshots/window_1.png)
 
-![Screenshots](Screenshots/window_2.png)
+![](Screenshots/window_2.png)
 
 ### Features
 
