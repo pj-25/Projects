@@ -11,9 +11,10 @@ import java.util.regex.Pattern;
 
 public class ThreadedClass implements Runnable
 {
+    private static Database database = new Database();
     private static final Pattern pattern = Pattern.compile("^(--)(\\S+)(--)(\\S+)(--)");
     private static final Pattern  errorPattern = Pattern.compile("^!!--!!");
-    private static final Pattern servicePattern = Pattern.compile("^#-\\*-#--(\\S+)--(\\S+)--");
+    private static final Pattern servicePattern = Pattern.compile("^#-\\*-#--(\\S+)--(\\S+)--(\\S*)");
     private  String hostname;
     private static String clientsList = "";
     private static final HashMap<String,Socket> hashMap = new HashMap<>();
@@ -54,6 +55,7 @@ public class ThreadedClass implements Runnable
     }
     public ThreadedClass(Socket incomingSocket)
     {
+
         this.incomingSocket = incomingSocket;
         input = null;
         PrintWriter printWriter =null;
@@ -111,7 +113,26 @@ public class ThreadedClass implements Runnable
                                         System.out.println(ThreadedClass.clientsList);
                                         PrintWriter other = new PrintWriter(new OutputStreamWriter(incomingSocket.getOutputStream(), StandardCharsets.UTF_8), true);
                                         other.println(makeServiceResponce("clientList", list));
-
+                                        break;
+                                    case "signUp":
+                                        String username = getHostName(line);
+                                        String password = getHostPassword(line);
+                                        System.out.println("signUp : #" + username);
+                                        System.out.println("signUp : #" + password);
+                                        database.addRecord(username,password);
+                                        PrintWriter newWriter = new PrintWriter(new OutputStreamWriter(incomingSocket.getOutputStream(), StandardCharsets.UTF_8), true);
+                                        newWriter.println("done");
+                                        break;
+                                    case "signIn":
+                                        String user = getHostName(line);
+                                        String pass = getHostPassword(line);
+                                        System.out.println("signIn : #" + user);
+                                        System.out.println("signIn : #" + pass);
+                                        PrintWriter oldWriter = new PrintWriter(new OutputStreamWriter(incomingSocket.getOutputStream(), StandardCharsets.UTF_8), true);
+                                        if(database.logIn(user,pass))
+                                            oldWriter.println("done");
+                                        else
+                                            oldWriter.println("error");
                                         break;
                                     default:
                                         System.out.println("New Service Appear..!");
@@ -142,7 +163,7 @@ public class ThreadedClass implements Runnable
                                 }
                                 break;
                             default:
-                                System.out.println("Something different happened this time...!");
+                                System.out.println("Something different happened this time...!::::"+line);
                                 break;
                         }
                     }
@@ -229,5 +250,11 @@ public class ThreadedClass implements Runnable
         Matcher matcher = servicePattern.matcher(line);
         matcher.find();
         return matcher.group(1);
+    }
+    private static String getHostPassword(String line)
+    {
+        Matcher matcher = servicePattern.matcher(line);
+        matcher.find();
+        return matcher.group(3);
     }
 }
