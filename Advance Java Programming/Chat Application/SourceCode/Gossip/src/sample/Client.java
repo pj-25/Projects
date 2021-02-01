@@ -25,6 +25,7 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -65,7 +66,7 @@ public class Client implements Runnable
         this.hostname = hostname.trim();
         try
         {
-            socket = new Socket(InetAddress.getByName("18.222.214.51"),8080);
+            socket = new Socket(InetAddress.getLocalHost(),8080);
             if (socket.isConnected())
             {
                 inputStream = socket.getInputStream();
@@ -335,11 +336,18 @@ public class Client implements Runnable
                                             Platform.runLater(new Runnable() {
                                                 @Override
                                                 public void run() {
-                                                    if(client.getSelectionModel().getSelectedItem().equals(removedMember))
+                                                    try
                                                     {
-                                                        client.setValue("Default");
+                                                        if(client.getSelectionModel().getSelectedItem().equals(removedMember))
+                                                        {
+                                                            client.setValue("Default");
+                                                        }
+                                                        client.getItems().remove(removedMember);
                                                     }
-                                                    client.getItems().remove(removedMember);
+                                                    catch (Exception exception)
+                                                    {
+                                                        System.out.println(" Member removed from the Drop Down List.");
+                                                    }
                                                 }
                                             });
 
